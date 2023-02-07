@@ -1,8 +1,11 @@
-[package]
-org = "nilesh"
-name = "greetings"
-version = "0.1.0"
-distribution = "2201.3.0"
-
 [build-options]
-observabilityIncluded = true
+  observabilityIncluded = true
+
+[package]
+  distribution = "2201.3.1"
+  export = ["greeting_service_test"]
+  icon = "docs/icon.png"
+  keywords = ["Kind/Sample","Type/RestApi","Category/Service","Internal/http"]
+  name = "greeting_service_test"
+  org = "choreotestorganization"
+  version = "3.1.0"
